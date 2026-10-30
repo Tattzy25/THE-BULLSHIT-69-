@@ -1,0 +1,154 @@
+14:38:19.961
+Backend
+Log
+ Server restarting... 
+14:38:19.962
+Backend
+Log
+ Server stopped. 
+14:38:19.962
+Backend
+Log
+ Server started on port 3000. 
+14:38:19.962
+Backend
+Log
+ Pre-warming 1 paths...
+  
+  > react-example@0.0.0 dev
+  > tsx server.ts --port 3000 --host 0.0.0.0
+  
+  ◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+  (!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+    - `__dirname` (vite.config.ts:11:27). Use `import.meta.dirname` instead
+  Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+  MerchCraft Studio server running on port 3000 
+14:38:19.962
+Backend
+Log
+ Pre-warming completed.
+  9:38:17 PM [vite] (client) dependency optimized: lucide-react
+  9:38:17 PM [vite] (client) optimized dependencies changed. reloading 
+14:38:20.006
+Backend
+Log
+ CONNECTED 
+14:38:24.123
+System
+Build
+ Render End 
+14:38:24.907
+App
+Debug
+ [vite] connecting... 
+14:39:48.008
+App
+Error
+ [vite] failed to connect to websocket (Error: WebSocket closed without opened.).  
+14:39:48.122
+App
+Unhandled Rejection
+ Error: WebSocket closed without opened.
+    at WebSocket.<anonymous> (https://ais-dev-2eb6eu3uyhydv44xj25ljg-730575025054.us-east1.run.app/@vite/client:236:30) 
+14:40:03.867
+App
+Warning
+ Fallback analysis used 
+14:40:03.977
+Backend
+Error
+ Error analyzing artwork: ApiError: {"error":{"code":400,"message":"Invalid value at 'contents[0].parts[0].inline_data.data' (TYPE_BYTES), Base64 decoding failed for \"data:image/svg+xml;utf8,%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%20width%3D%22400%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22apexGrad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23E2E8F0%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3C!--%20Outer%20Shield%20Badge%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C30%20360%2C95%20340%2C290%20200%2C375%2060%2C290%2040%2C95%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%228%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C48%20342%2C107%20325%2C278%20200%2C355%2075%2C278%2058%2C107%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%226%206%22%2F%3E%0A%20%20%3C!--%20Mountain%20Apex%20Glyph%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C95%20285%2C245%20235%2C245%20200%2C180%20165%2C245%20115%2C245%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C120%20255%2C220%20230%2C220%20200%2C170%20170%2C220%20145%2C220%22%20fill%3D%22%230F172A%22%2F%3E%0A%20%20%3C!--%20Ribbon%20banner%20--%3E%0A%20%20%3Crect%20x%3D%2270%22%20y%3D%22270%22%20width%3D%22260%22%20height%3D%2242%22%20rx%3D%224%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22299%22%20font-family%3D%22'Plus%20Jakarta%20Sans'%2C%20Arial%2C%20sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2222%22%20letter-spacing%3D%224%22%20fill%3D%22%230F172A%22%20text-anchor%3D%22middle%22%3EAPEX%20CLUB%3C%2Ftext%3E%0A%20%20%3C!--%20Year%20--%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22340%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%20font-size%3D%2213%22%20letter-spacing%3D%223%22%20fill%3D%22%23FFFFFF%22%20text-anchor%3D%22middle%22%3EEST.%201994%20%C2%B7%20ATHLETICS%3C%2Ftext%3E%0A%3C%2Fsvg%3E%0A\"","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"contents[0].parts[0].inline_data.data","description":"Invalid value at 'contents[0].parts[0].inline_data.data' (TYPE_BYTES), Base64 decoding failed for \"data:image/svg+xml;utf8,%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%20width%3D%22400%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22apexGrad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23E2E8F0%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3C!--%20Outer%20Shield%20Badge%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C30%20360%2C95%20340%2C290%20200%2C375%2060%2C290%2040%2C95%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%228%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C48%20342%2C107%20325%2C278%20200%2C355%2075%2C278%2058%2C107%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%226%206%22%2F%3E%0A%20%20%3C!--%20Mountain%20Apex%20Glyph%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C95%20285%2C245%20235%2C245%20200%2C180%20165%2C245%20115%2C245%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C120%20255%2C220%20230%2C220%20200%2C170%20170%2C220%20145%2C220%22%20fill%3D%22%230F172A%22%2F%3E%0A%20%20%3C!--%20Ribbon%20banner%20--%3E%0A%20%20%3Crect%20x%3D%2270%22%20y%3D%22270%22%20width%3D%22260%22%20height%3D%2242%22%20rx%3D%224%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22299%22%20font-family%3D%22'Plus%20Jakarta%20Sans'%2C%20Arial%2C%20sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2222%22%20letter-spacing%3D%224%22%20fill%3D%22%230F172A%22%20text-anchor%3D%22middle%22%3EAPEX%20CLUB%3C%2Ftext%3E%0A%20%20%3C!--%20Year%20--%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22340%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%20font-size%3D%2213%22%20letter-spacing%3D%223%22%20fill%3D%22%23FFFFFF%22%20text-anchor%3D%22middle%22%3EEST.%201994%20%C2%B7%20ATHLETICS%3C%2Ftext%3E%0A%3C%2Fsvg%3E%0A\""}]}]}} 
+14:40:03.977
+Backend
+Log
+ at throwErrorIfNotOK (/app/applet/node_modules/@google/genai/src/_api_client.ts:1158:24) 
+14:40:03.977
+Backend
+Log
+ at process.processTicksAndRejections (node:internal/process/task_queues:103:5) 
+14:40:03.977
+Backend
+Log
+ at async <anonymous> (/app/applet/node_modules/@google/genai/src/_api_client.ts:695:9) 
+14:40:03.977
+Backend
+Log
+ at async Models.generateContentWithContinuation (/app/applet/node_modules/@google/genai/src/models.ts:108:24) 
+14:40:03.977
+Backend
+Log
+ at async Models.Models.generateContent (/app/applet/node_modules/@google/genai/src/models.ts:208:14) 
+14:40:03.977
+Backend
+Log
+ at async <anonymous> (/app/applet/server.ts:52:22) { 
+14:40:03.977
+Backend
+Log
+ status: 400 
+14:40:03.977
+Backend
+Log
+ } 
+14:48:20.117
+Backend
+Log
+ CONNECTED 
+14:58:20.897
+Backend
+Log
+ CONNECTED 
+15:01:48.739
+App
+Error
+ Mockup generation error:
+  Error: {"error":{"code":400,"message":"Invalid value at 'contents[0].parts[0].inline_data.data' (TYPE_BYTES), Base64 decoding failed for \"data:image/svg+xml;utf8,%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%20width%3D%22400%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22apexGrad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23E2E8F0%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3C!--%20Outer%20Shield%20Badge%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C30%20360%2C95%20340%2C290%20200%2C375%2060%2C290%2040%2C95%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%228%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C48%20342%2C107%20325%2C278%20200%2C355%2075%2C278%2058%2C107%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%226%206%22%2F%3E%0A%20%20%3C!--%20Mountain%20Apex%20Glyph%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C95%20285%2C245%20235%2C245%20200%2C180%20165%2C245%20115%2C245%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C120%20255%2C220%20230%2C220%20200%2C170%20170%2C220%20145%2C220%22%20fill%3D%22%230F172A%22%2F%3E%0A%20%20%3C!--%20Ribbon%20banner%20--%3E%0A%20%20%3Crect%20x%3D%2270%22%20y%3D%22270%22%20width%3D%22260%22%20height%3D%2242%22%20rx%3D%224%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22299%22%20font-family%3D%22'Plus%20Jakarta%20Sans'%2C%20Arial%2C%20sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2222%22%20letter-spacing%3D%224%22%20fill%3D%22%230F172A%22%20text-anchor%3D%22middle%22%3EAPEX%20CLUB%3C%2Ftext%3E%0A%20%20%3C!--%20Year%20--%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22340%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%20font-size%3D%2213%22%20letter-spacing%3D%223%22%20fill%3D%22%23FFFFFF%22%20text-anchor%3D%22middle%22%3EEST.%201994%20%C2%B7%20ATHLETICS%3C%2Ftext%3E%0A%3C%2Fsvg%3E%0A\"","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"contents[0].parts[0].inline_data.data","description":"Invalid value at 'contents[0].parts[0].inline_data.data' (TYPE_BYTES), Base64 decoding failed for \"data:image/svg+xml;utf8,%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%20width%3D%22400%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22apexGrad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23E2E8F0%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3C!--%20Outer%20Shield%20Badge%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C30%20360%2C95%20340%2C290%20200%2C375%2060%2C290%2040%2C95%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%228%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C48%20342%2C107%20325%2C278%20200%2C355%2075%2C278%2058%2C107%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%226%206%22%2F%3E%0A%20%20%3C!--%20Mountain%20Apex%20Glyph%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C95%20285%2C245%20235%2C245%20200%2C180%20165%2C245%20115%2C245%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C120%20255%2C220%20230%2C220%20200%2C170%20170%2C220%20145%2C220%22%20fill%3D%22%230F172A%22%2F%3E%0A%20%20%3C!--%20Ribbon%20banner%20--%3E%0A%20%20%3Crect%20x%3D%2270%22%20y%3D%22270%22%20width%3D%22260%22%20height%3D%2242%22%20rx%3D%224%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22299%22%20font-family%3D%22'Plus%20Jakarta%20Sans'%2C%20Arial%2C%20sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2222%22%20letter-spacing%3D%224%22%20fill%3D%22%230F172A%22%20text-anchor%3D%22middle%22%3EAPEX%20CLUB%3C%2Ftext%3E%0A%20%20%3C!--%20Year%20--%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22340%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%20font-size%3D%2213%22%20letter-spacing%3D%223%22%20fill%3D%22%23FFFFFF%22%20text-anchor%3D%22middle%22%3EEST.%201994%20%C2%B7%20ATHLETICS%3C%2Ftext%3E%0A%3C%2Fsvg%3E%0A\""}]}]}}
+    at handleGenerate (https://ais-dev-2eb6eu3uyhydv44xj25ljg-730575025054.us-east1.run.app/src/components/AiLifestyleGenerator.tsx:40:11) 
+15:01:49.008
+Backend
+Error
+ Model gemini-nano-banana-2.1 failed: {"error":{"code":400,"message":"Invalid value at 'contents[0].parts[0].inline_data.data' (TYPE_BYTES), Base64 decoding failed for \"data:image/svg+xml;utf8,%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%20width%3D%22400%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22apexGrad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23E2E8F0%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3C!--%20Outer%20Shield%20Badge%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C30%20360%2C95%20340%2C290%20200%2C375%2060%2C290%2040%2C95%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%228%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C48%20342%2C107%20325%2C278%20200%2C355%2075%2C278%2058%2C107%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%226%206%22%2F%3E%0A%20%20%3C!--%20Mountain%20Apex%20Glyph%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C95%20285%2C245%20235%2C245%20200%2C180%20165%2C245%20115%2C245%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C120%20255%2C220%20230%2C220%20200%2C170%20170%2C220%20145%2C220%22%20fill%3D%22%230F172A%22%2F%3E%0A%20%20%3C!--%20Ribbon%20banner%20--%3E%0A%20%20%3Crect%20x%3D%2270%22%20y%3D%22270%22%20width%3D%22260%22%20height%3D%2242%22%20rx%3D%224%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22299%22%20font-family%3D%22'Plus%20Jakarta%20Sans'%2C%20Arial%2C%20sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2222%22%20letter-spacing%3D%224%22%20fill%3D%22%230F172A%22%20text-anchor%3D%22middle%22%3EAPEX%20CLUB%3C%2Ftext%3E%0A%20%20%3C!--%20Year%20--%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22340%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%20font-size%3D%2213%22%20letter-spacing%3D%223%22%20fill%3D%22%23FFFFFF%22%20text-anchor%3D%22middle%22%3EEST.%201994%20%C2%B7%20ATHLETICS%3C%2Ftext%3E%0A%3C%2Fsvg%3E%0A\"","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"contents[0].parts[0].inline_data.data","description":"Invalid value at 'contents[0].parts[0].inline_data.data' (TYPE_BYTES), Base64 decoding failed for \"data:image/svg+xml;utf8,%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%20width%3D%22400%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22apexGrad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23E2E8F0%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3C!--%20Outer%20Shield%20Badge%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C30%20360%2C95%20340%2C290%20200%2C375%2060%2C290%2040%2C95%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%228%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C48%20342%2C107%20325%2C278%20200%2C355%2075%2C278%2058%2C107%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%226%206%22%2F%3E%0A%20%20%3C!--%20Mountain%20Apex%20Glyph%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C95%20285%2C245%20235%2C245%20200%2C180%20165%2C245%20115%2C245%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C120%20255%2C220%20230%2C220%20200%2C170%20170%2C220%20145%2C220%22%20fill%3D%22%230F172A%22%2F%3E%0A%20%20%3C!--%20Ribbon%20banner%20--%3E%0A%20%20%3Crect%20x%3D%2270%22%20y%3D%22270%22%20width%3D%22260%22%20height%3D%2242%22%20rx%3D%224%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22299%22%20font-family%3D%22'Plus%20Jakarta%20Sans'%2C%20Arial%2C%20sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2222%22%20letter-spacing%3D%224%22%20fill%3D%22%230F172A%22%20text-anchor%3D%22middle%22%3EAPEX%20CLUB%3C%2Ftext%3E%0A%20%20%3C!--%20Year%20--%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22340%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%20font-size%3D%2213%22%20letter-spacing%3D%223%22%20fill%3D%22%23FFFFFF%22%20text-anchor%3D%22middle%22%3EEST.%201994%20%C2%B7%20ATHLETICS%3C%2Ftext%3E%0A%3C%2Fsvg%3E%0A\""}]}]}} 
+15:01:49.008
+Backend
+Error
+ Model gemini-3.1-flash-lite-image failed: {"error":{"code":400,"message":"Invalid value at 'contents[0].parts[0].inline_data.data' (TYPE_BYTES), Base64 decoding failed for \"data:image/svg+xml;utf8,%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%20width%3D%22400%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22apexGrad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23E2E8F0%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3C!--%20Outer%20Shield%20Badge%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C30%20360%2C95%20340%2C290%20200%2C375%2060%2C290%2040%2C95%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%228%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C48%20342%2C107%20325%2C278%20200%2C355%2075%2C278%2058%2C107%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%226%206%22%2F%3E%0A%20%20%3C!--%20Mountain%20Apex%20Glyph%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C95%20285%2C245%20235%2C245%20200%2C180%20165%2C245%20115%2C245%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C120%20255%2C220%20230%2C220%20200%2C170%20170%2C220%20145%2C220%22%20fill%3D%22%230F172A%22%2F%3E%0A%20%20%3C!--%20Ribbon%20banner%20--%3E%0A%20%20%3Crect%20x%3D%2270%22%20y%3D%22270%22%20width%3D%22260%22%20height%3D%2242%22%20rx%3D%224%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22299%22%20font-family%3D%22'Plus%20Jakarta%20Sans'%2C%20Arial%2C%20sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2222%22%20letter-spacing%3D%224%22%20fill%3D%22%230F172A%22%20text-anchor%3D%22middle%22%3EAPEX%20CLUB%3C%2Ftext%3E%0A%20%20%3C!--%20Year%20--%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22340%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%20font-size%3D%2213%22%20letter-spacing%3D%223%22%20fill%3D%22%23FFFFFF%22%20text-anchor%3D%22middle%22%3EEST.%201994%20%C2%B7%20ATHLETICS%3C%2Ftext%3E%0A%3C%2Fsvg%3E%0A\"","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"contents[0].parts[0].inline_data.data","description":"Invalid value at 'contents[0].parts[0].inline_data.data' (TYPE_BYTES), Base64 decoding failed for \"data:image/svg+xml;utf8,%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%20width%3D%22400%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22apexGrad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23E2E8F0%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3C!--%20Outer%20Shield%20Badge%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C30%20360%2C95%20340%2C290%20200%2C375%2060%2C290%2040%2C95%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%228%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C48%20342%2C107%20325%2C278%20200%2C355%2075%2C278%2058%2C107%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%226%206%22%2F%3E%0A%20%20%3C!--%20Mountain%20Apex%20Glyph%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C95%20285%2C245%20235%2C245%20200%2C180%20165%2C245%20115%2C245%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C120%20255%2C220%20230%2C220%20200%2C170%20170%2C220%20145%2C220%22%20fill%3D%22%230F172A%22%2F%3E%0A%20%20%3C!--%20Ribbon%20banner%20--%3E%0A%20%20%3Crect%20x%3D%2270%22%20y%3D%22270%22%20width%3D%22260%22%20height%3D%2242%22%20rx%3D%224%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22299%22%20font-family%3D%22'Plus%20Jakarta%20Sans'%2C%20Arial%2C%20sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2222%22%20letter-spacing%3D%224%22%20fill%3D%22%230F172A%22%20text-anchor%3D%22middle%22%3EAPEX%20CLUB%3C%2Ftext%3E%0A%20%20%3C!--%20Year%20--%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22340%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%20font-size%3D%2213%22%20letter-spacing%3D%223%22%20fill%3D%22%23FFFFFF%22%20text-anchor%3D%22middle%22%3EEST.%201994%20%C2%B7%20ATHLETICS%3C%2Ftext%3E%0A%3C%2Fsvg%3E%0A\""}]}]}} 
+15:01:53.944
+App
+Warning
+ Fallback analysis used 
+15:01:54.043
+Backend
+Error
+ Error analyzing artwork: ApiError: {"error":{"code":400,"message":"Invalid value at 'contents[0].parts[0].inline_data.data' (TYPE_BYTES), Base64 decoding failed for \"data:image/svg+xml;utf8,%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%20width%3D%22400%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22apexGrad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23E2E8F0%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3C!--%20Outer%20Shield%20Badge%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C30%20360%2C95%20340%2C290%20200%2C375%2060%2C290%2040%2C95%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%228%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C48%20342%2C107%20325%2C278%20200%2C355%2075%2C278%2058%2C107%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%226%206%22%2F%3E%0A%20%20%3C!--%20Mountain%20Apex%20Glyph%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C95%20285%2C245%20235%2C245%20200%2C180%20165%2C245%20115%2C245%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C120%20255%2C220%20230%2C220%20200%2C170%20170%2C220%20145%2C220%22%20fill%3D%22%230F172A%22%2F%3E%0A%20%20%3C!--%20Ribbon%20banner%20--%3E%0A%20%20%3Crect%20x%3D%2270%22%20y%3D%22270%22%20width%3D%22260%22%20height%3D%2242%22%20rx%3D%224%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22299%22%20font-family%3D%22'Plus%20Jakarta%20Sans'%2C%20Arial%2C%20sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2222%22%20letter-spacing%3D%224%22%20fill%3D%22%230F172A%22%20text-anchor%3D%22middle%22%3EAPEX%20CLUB%3C%2Ftext%3E%0A%20%20%3C!--%20Year%20--%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22340%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%20font-size%3D%2213%22%20letter-spacing%3D%223%22%20fill%3D%22%23FFFFFF%22%20text-anchor%3D%22middle%22%3EEST.%201994%20%C2%B7%20ATHLETICS%3C%2Ftext%3E%0A%3C%2Fsvg%3E%0A\"","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"contents[0].parts[0].inline_data.data","description":"Invalid value at 'contents[0].parts[0].inline_data.data' (TYPE_BYTES), Base64 decoding failed for \"data:image/svg+xml;utf8,%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%20width%3D%22400%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22apexGrad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23E2E8F0%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3C!--%20Outer%20Shield%20Badge%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C30%20360%2C95%20340%2C290%20200%2C375%2060%2C290%2040%2C95%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%228%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C48%20342%2C107%20325%2C278%20200%2C355%2075%2C278%2058%2C107%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%226%206%22%2F%3E%0A%20%20%3C!--%20Mountain%20Apex%20Glyph%20--%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C95%20285%2C245%20235%2C245%20200%2C180%20165%2C245%20115%2C245%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Cpolygon%20points%3D%22200%2C120%20255%2C220%20230%2C220%20200%2C170%20170%2C220%20145%2C220%22%20fill%3D%22%230F172A%22%2F%3E%0A%20%20%3C!--%20Ribbon%20banner%20--%3E%0A%20%20%3Crect%20x%3D%2270%22%20y%3D%22270%22%20width%3D%22260%22%20height%3D%2242%22%20rx%3D%224%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22299%22%20font-family%3D%22'Plus%20Jakarta%20Sans'%2C%20Arial%2C%20sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2222%22%20letter-spacing%3D%224%22%20fill%3D%22%230F172A%22%20text-anchor%3D%22middle%22%3EAPEX%20CLUB%3C%2Ftext%3E%0A%20%20%3C!--%20Year%20--%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22340%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%20font-size%3D%2213%22%20letter-spacing%3D%223%22%20fill%3D%22%23FFFFFF%22%20text-anchor%3D%22middle%22%3EEST.%201994%20%C2%B7%20ATHLETICS%3C%2Ftext%3E%0A%3C%2Fsvg%3E%0A\""}]}]}} 
+15:01:54.043
+Backend
+Log
+ at throwErrorIfNotOK (/app/applet/node_modules/@google/genai/src/_api_client.ts:1158:24) 
+15:01:54.043
+Backend
+Log
+ at process.processTicksAndRejections (node:internal/process/task_queues:103:5) 
+15:01:54.043
+Backend
+Log
+ at async <anonymous> (/app/applet/node_modules/@google/genai/src/_api_client.ts:695:9) 
+15:01:54.043
+Backend
+Log
+ at async Models.generateContentWithContinuation (/app/applet/node_modules/@google/genai/src/models.ts:108:24) 
+15:01:54.043
+Backend
+Log
+ at async Models.Models.generateContent (/app/applet/node_modules/@google/genai/src/models.ts:208:14) 
+15:01:54.043
+Backend
+Log
+ at async <anonymous> (/app/applet/server.ts:52:22) { 
+15:01:54.043
+Backend
+Log
+ status: 400 
+15:01:54.043
+Backend
+Log
+ } 

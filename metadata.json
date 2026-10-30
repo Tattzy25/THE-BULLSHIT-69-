@@ -1,0 +1,6 @@
+{
+  "name": "MerchCraft AI Studio",
+  "description": "On-demand merchandise mockup studio: upload your logo, preview realistic product shots across apparel and accessories, customize print treatments, generate AI contextual shots, and export 300 DPI print-ready production files.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
